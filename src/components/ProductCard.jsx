@@ -9,7 +9,7 @@ export default function ProductCard({product}) {
         className="aspect-square object-cover"
       />
 
-      <h2 className="text-6xl absolute p-4 uppercase font-semibold font-mono tracking-wider mix-blend-overlay text-white">
+      <h2 className="text-4xl absolute p-4 uppercase font-semibold font-mono tracking-wider mix-blend-overlay text-white flex-wrap">
         {product.name}
       </h2>
       <div className="flex items-center justify-between gap-3 p-4">

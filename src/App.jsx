@@ -7,7 +7,7 @@ import ProductsPage from "./pages/ProductsPage";
 
 function App() {
   return (
-    <div className="max-w-screen-sm mx-auto">
+    <div className="max-w-screen-sm mx-auto w-full">
       {/* <h1 className="text-3xl p-10">Carte Le Dauphin</h1> */}
       <Routes>
         <Route path="/" index element={<Home />} />
