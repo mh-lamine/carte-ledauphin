@@ -1,25 +1,20 @@
-import { GiDolphin } from "react-icons/gi";
 import PropTypes from "prop-types";
 
 export default function ProductCard({product}) {
   return (
-    <div className="grid grid-cols-[3fr,1fr,5fr]">
+    <div className="flex flex-col gap-4">
       <img
-        src={`https://source.unsplash.com/random/?${product.name}`}
+        src={product.path}
         alt={product.name}
         className="aspect-square object-cover"
       />
-      <div className="p-2 flex flex-col items-center justify-center gap-4">
-        <span className="border-solid h-full border-r-2 border-red-400 opacity-50"></span>
-        <h1 className="text-xl uppercase font-mono whitespace-nowrap px-4 tracking-widest">
-          <GiDolphin className="text-red-600" />
-        </h1>
-        <span className="border-solid h-full border-r-2 border-red-400 opacity-50"></span>
-      </div>
-      <div>
-        <h2 className="text-2xl">{product.name}</h2>
-        <p>{product.description}</p>
-        <p>{product.price}€</p>
+
+      <h2 className="text-6xl absolute p-4 uppercase font-semibold font-mono tracking-wider mix-blend-overlay text-white">
+        {product.name}
+      </h2>
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-xl">{product.description}</p>
+        <p className="p-4 text-3xl font-extralight border-x-2 border-slate-200 rounded-xl">{product.price}€</p>
       </div>
     </div>
   );

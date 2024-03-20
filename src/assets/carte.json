@@ -31,21 +31,24 @@
       "name": "Mojito",
       "price": 8.5,
       "description": "A refreshing cocktail made with rum, lime, mint, and soda water.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/mojito.png"
     },
     {
       "id": 2,
       "name": "Virgin Mojito",
       "price": 6.5,
       "description": "A non-alcoholic version of the classic Mojito, made with lime, mint, and soda water.",
-      "category": "nonalcoholizeddrink"
+      "category": "nonalcoholizeddrink",
+      "path": "/virginmojito.png"
     },
     {
       "id": 3,
       "name": "Caesar Salad",
       "price": 9.5,
       "description": "A classic salad made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
-      "category": "starter"
+      "category": "starter",
+      "path": "/caesarsalad.png"
     },
     {
       "id": 4,
@@ -66,7 +69,8 @@
       "name": "Gin and Tonic",
       "price": 9.5,
       "description": "A classic cocktail made with gin, tonic water, and a slice of lime.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/ginandtonic.png"
     },
     {
       "id": 7,
@@ -101,7 +105,8 @@
       "name": "Old Fashioned",
       "price": 10.5,
       "description": "A classic cocktail made with whiskey, sugar, and bitters.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/oldfashioned.png"
     },
     {
       "id": 12,
@@ -136,7 +141,8 @@
       "name": "Cosmopolitan",
       "price": 9.5,
       "description": "A popular cocktail made with vodka, cranberry juice, lime juice, and triple sec.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/cosmopolitan.png"
     },
     {
       "id": 17,
@@ -171,7 +177,8 @@
       "name": "Martini",
       "price": 10.5,
       "description": "A classic cocktail made with gin and vermouth, garnished with an olive or a lemon twist.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/martini.png"
     },
     {
       "id": 22,
@@ -206,7 +213,8 @@
       "name": "Negroni",
       "price": 11.5,
       "description": "A classic Italian cocktail made with gin, Campari, and sweet vermouth.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/negroni.png"
     },
     {
       "id": 27,
@@ -241,7 +249,8 @@
       "name": "Margarita",
       "price": 10.5,
       "description": "A popular cocktail made with tequila, lime juice, and triple sec.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/margarita.png"
     },
     {
       "id": 32,
@@ -276,7 +285,8 @@
       "name": "Piña Colada",
       "price": 9.5,
       "description": "A tropical cocktail made with rum, pineapple juice, and coconut cream.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/pinacolada.png"
     },
     {
       "id": 37,
@@ -311,7 +321,8 @@
       "name": "Whiskey Sour",
       "price": 10.5,
       "description": "A classic cocktail made with whiskey, lemon juice, and sugar.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/whiskeysour.png"
     },
     {
       "id": 42,
@@ -346,7 +357,8 @@
       "name": "Moscow Mule",
       "price": 9.5,
       "description": "A cocktail made with vodka, ginger beer, and lime juice, served in a copper mug.",
-      "category": "alcoholizeddrink"
+      "category": "alcoholizeddrink",
+      "path": "/moscowmule.png"
     },
     {
       "id": 47,
@@ -378,3 +390,4 @@
     }
   ]
 }
+
