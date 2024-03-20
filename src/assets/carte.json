@@ -1,0 +1,380 @@
+{
+  "categories": {
+    "drink": [
+      {
+        "id": 1,
+        "name": "alcoholizeddrink"
+      },
+      {
+        "id": 2,
+        "name": "nonalcoholizeddrink"
+      }
+    ],
+    "food": [
+      {
+        "id": 3,
+        "name": "starter"
+      },
+      {
+        "id": 4,
+        "name": "dish"
+      },
+      {
+        "id": 5,
+        "name": "dessert"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Mojito",
+      "price": 8.5,
+      "description": "A refreshing cocktail made with rum, lime, mint, and soda water.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 2,
+      "name": "Virgin Mojito",
+      "price": 6.5,
+      "description": "A non-alcoholic version of the classic Mojito, made with lime, mint, and soda water.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 3,
+      "name": "Caesar Salad",
+      "price": 9.5,
+      "description": "A classic salad made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+      "category": "starter"
+    },
+    {
+      "id": 4,
+      "name": "Beef Bourguignon",
+      "price": 18.5,
+      "description": "A traditional French dish made with beef, red wine, onions, and mushrooms.",
+      "category": "dish"
+    },
+    {
+      "id": 5,
+      "name": "Crème Brûlée",
+      "price": 7.5,
+      "description": "A rich and creamy dessert with a caramelized sugar topping.",
+      "category": "dessert"
+    },
+    {
+      "id": 6,
+      "name": "Gin and Tonic",
+      "price": 9.5,
+      "description": "A classic cocktail made with gin, tonic water, and a slice of lime.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 7,
+      "name": "Sparkling Water",
+      "price": 2.5,
+      "description": "A refreshing carbonated water with bubbles.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 8,
+      "name": "Caprese Salad",
+      "price": 10.5,
+      "description": "A simple salad made with fresh tomatoes, mozzarella cheese, and basil.",
+      "category": "starter"
+    },
+    {
+      "id": 9,
+      "name": "Chicken Parmesan",
+      "price": 16.5,
+      "description": "Breaded chicken topped with marinara sauce and melted cheese.",
+      "category": "dish"
+    },
+    {
+      "id": 10,
+      "name": "Tiramisu",
+      "price": 8.5,
+      "description": "A classic Italian dessert made with layers of ladyfingers, mascarpone cheese, and coffee.",
+      "category": "dessert"
+    },
+    {
+      "id": 11,
+      "name": "Old Fashioned",
+      "price": 10.5,
+      "description": "A classic cocktail made with whiskey, sugar, and bitters.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 12,
+      "name": "Lemonade",
+      "price": 4.5,
+      "description": "A refreshing drink made with lemon juice, water, and sugar.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 13,
+      "name": "Bruschetta",
+      "price": 7.5,
+      "description": "Toasted bread topped with fresh tomatoes, garlic, and basil.",
+      "category": "starter"
+    },
+    {
+      "id": 14,
+      "name": "Beef Stroganoff",
+      "price": 19.5,
+      "description": "A Russian dish made with sautéed beef, onions, mushrooms, and sour cream.",
+      "category": "dish"
+    },
+    {
+      "id": 15,
+      "name": "Chocolate Mousse",
+      "price": 6.5,
+      "description": "A light and airy dessert made with chocolate and whipped cream.",
+      "category": "dessert"
+    },
+    {
+      "id": 16,
+      "name": "Cosmopolitan",
+      "price": 9.5,
+      "description": "A popular cocktail made with vodka, cranberry juice, lime juice, and triple sec.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 17,
+      "name": "Orange Juice",
+      "price": 3.5,
+      "description": "A refreshing drink made from freshly squeezed oranges.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 18,
+      "name": "Greek Salad",
+      "price": 11.5,
+      "description": "A salad made with fresh vegetables, feta cheese, and olives.",
+      "category": "starter"
+    },
+    {
+      "id": 19,
+      "name": "Fish and Chips",
+      "price": 14.5,
+      "description": "A classic British dish made with battered fish and deep-fried chips.",
+      "category": "dish"
+    },
+    {
+      "id": 20,
+      "name": "Panna Cotta",
+      "price": 7.5,
+      "description": "An Italian dessert made with sweetened cream and gelatin.",
+      "category": "dessert"
+    },
+    {
+      "id": 21,
+      "name": "Martini",
+      "price": 10.5,
+      "description": "A classic cocktail made with gin and vermouth, garnished with an olive or a lemon twist.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 22,
+      "name": "Iced Tea",
+      "price": 4.5,
+      "description": "A refreshing drink made with tea, ice, and sweetener.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 23,
+      "name": "Caprese Skewers",
+      "price": 8.5,
+      "description": "Skewers with cherry tomatoes, mozzarella cheese, and basil leaves.",
+      "category": "starter"
+    },
+    {
+      "id": 24,
+      "name": "Lamb Chops",
+      "price": 22.5,
+      "description": "Grilled or pan-seared lamb chops seasoned with herbs and spices.",
+      "category": "dish"
+    },
+    {
+      "id": 25,
+      "name": "Cheesecake",
+      "price": 9.5,
+      "description": "A rich and creamy dessert made with cream cheese, eggs, and a graham cracker crust.",
+      "category": "dessert"
+    },
+    {
+      "id": 26,
+      "name": "Negroni",
+      "price": 11.5,
+      "description": "A classic Italian cocktail made with gin, Campari, and sweet vermouth.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 27,
+      "name": "Lemon Lime Soda",
+      "price": 3.5,
+      "description": "A carbonated soft drink with a citrus flavor.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 28,
+      "name": "Spinach and Artichoke Dip",
+      "price": 8.5,
+      "description": "A creamy dip made with spinach, artichokes, and cheese.",
+      "category": "starter"
+    },
+    {
+      "id": 29,
+      "name": "Chicken Alfredo",
+      "price": 17.5,
+      "description": "Pasta with grilled chicken and a creamy Alfredo sauce.",
+      "category": "dish"
+    },
+    {
+      "id": 30,
+      "name": "Fruit Salad",
+      "price": 6.5,
+      "description": "A refreshing salad made with a variety of fresh fruits.",
+      "category": "dessert"
+    },
+    {
+      "id": 31,
+      "name": "Margarita",
+      "price": 10.5,
+      "description": "A popular cocktail made with tequila, lime juice, and triple sec.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 32,
+      "name": "Iced Coffee",
+      "price": 4.5,
+      "description": "Chilled coffee served over ice, often sweetened and flavored.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 33,
+      "name": "Bruschetta with Mozzarella",
+      "price": 9.5,
+      "description": "Toasted bread topped with fresh tomatoes, mozzarella cheese, and basil.",
+      "category": "starter"
+    },
+    {
+      "id": 34,
+      "name": "Sushi",
+      "price": 20.5,
+      "description": "A Japanese dish made with vinegared rice and various ingredients like raw fish, seafood, or vegetables.",
+      "category": "dish"
+    },
+    {
+      "id": 35,
+      "name": "Peach Cobbler",
+      "price": 7.5,
+      "description": "A warm dessert made with fresh peaches and a sweet biscuit-like topping.",
+      "category": "dessert"
+    },
+    {
+      "id": 36,
+      "name": "Piña Colada",
+      "price": 9.5,
+      "description": "A tropical cocktail made with rum, pineapple juice, and coconut cream.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 37,
+      "name": "Lemonade",
+      "price": 3.5,
+      "description": "A refreshing drink made with lemon juice, water, and sugar.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 38,
+      "name": "Stuffed Mushrooms",
+      "price": 8.5,
+      "description": "Mushroom caps filled with a savory mixture of breadcrumbs, cheese, and herbs.",
+      "category": "starter"
+    },
+    {
+      "id": 39,
+      "name": "Steak Frites",
+      "price": 24.5,
+      "description": "Grilled steak served with French fries.",
+      "category": "dish"
+    },
+    {
+      "id": 40,
+      "name": "Chocolate Brownie",
+      "price": 6.5,
+      "description": "A rich and fudgy dessert made with chocolate and nuts.",
+      "category": "dessert"
+    },
+    {
+      "id": 41,
+      "name": "Whiskey Sour",
+      "price": 10.5,
+      "description": "A classic cocktail made with whiskey, lemon juice, and sugar.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 42,
+      "name": "Fruit Smoothie",
+      "price": 5.5,
+      "description": "A blended drink made with fresh fruits, yogurt, and ice.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 43,
+      "name": "Garlic Bread",
+      "price": 4.5,
+      "description": "Toasted bread topped with garlic and butter.",
+      "category": "starter"
+    },
+    {
+      "id": 44,
+      "name": "Chicken Curry",
+      "price": 18.5,
+      "description": "A flavorful dish made with chicken, spices, and a creamy sauce.",
+      "category": "dish"
+    },
+    {
+      "id": 45,
+      "name": "Apple Pie",
+      "price": 8.5,
+      "description": "A classic American dessert made with apples and a flaky pastry crust.",
+      "category": "dessert"
+    },
+    {
+      "id": 46,
+      "name": "Moscow Mule",
+      "price": 9.5,
+      "description": "A cocktail made with vodka, ginger beer, and lime juice, served in a copper mug.",
+      "category": "alcoholizeddrink"
+    },
+    {
+      "id": 47,
+      "name": "Iced Latte",
+      "price": 4.5,
+      "description": "Chilled espresso mixed with milk and served over ice.",
+      "category": "nonalcoholizeddrink"
+    },
+    {
+      "id": 48,
+      "name": "Caprese Bruschetta",
+      "price": 9.5,
+      "description": "Toasted bread topped with fresh tomatoes, mozzarella cheese, and basil.",
+      "category": "starter"
+    },
+    {
+      "id": 49,
+      "name": "Lobster Thermidor",
+      "price": 28.5,
+      "description": "A classic French dish made with lobster meat, mushrooms, and a creamy sauce.",
+      "category": "dish"
+    },
+    {
+      "id": 50,
+      "name": "Tarte Tatin",
+      "price": 7.5,
+      "description": "A caramelized upside-down pastry with apples.",
+      "category": "dessert"
+    }
+  ]
+}

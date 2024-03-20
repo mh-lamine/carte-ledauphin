@@ -1,47 +1,23 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Boissons from "./pages/boissons/Boissons";
-import Plats from "./pages/Plats";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Product from "./components/Product";
-import fakedata from "./assets/fakedata.json";
-import { useState } from "react";
+import Brasserie from "./pages/Brasserie";
+import Restaurant from "./pages/Restaurant";
+import ProductsPage from "./pages/ProductsPage";
 
 function App() {
-  const [data, setData] = useState(fakedata.drinkCategories);
   return (
-    <div className="app">
-      <h1>Carte Le Dauphin</h1>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/boissons" element={<Boissons />} />
-          <Route path="/plats" element={<Plats />} />
-          {data.map((category) => { 
-            if (category.name === "Boissons alcoolisées") {
-              return category.subcategories.map((subcategory) => {
-                let customPath = `/boissons/${subcategory.name
-                  .normalize("NFD")
-                  .replace(/[\u0300-\u036f]/g, "")
-                  .replace(/\s+/g, "")
-                  .toLowerCase()}`;
-                return(
-                  <Route
-                  path={customPath}
-                  element={
-                    <Product
-                      title={subcategory.name}
-                      data={subcategory.products}
-                    />
-                  }
-                />
-                )
-              });
-            }
-          })}
-          {/* <Route path="/boissons/bieres" element={<Product title="biouze"/>}/> */}
-        </Routes>
-      </Router>
+    <div className="max-w-screen-sm mx-auto">
+      {/* <h1 className="text-3xl p-10">Carte Le Dauphin</h1> */}
+      <Routes>
+        <Route path="/" index element={<Home />} />
+
+        <Route path="/brasserie" element={<Brasserie />} />
+        <Route path="/brasserie/:category" element={<ProductsPage />} />
+
+        <Route path="/restaurant" element={<Restaurant />} />
+        <Route path="/restaurant/:category" element={<ProductsPage />} />
+      </Routes>
     </div>
   );
 }
