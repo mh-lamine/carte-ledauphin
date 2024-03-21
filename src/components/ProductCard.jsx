@@ -4,7 +4,7 @@ export default function ProductCard({product}) {
   return (
     <div className="flex flex-col rounded-md overflow-hidden shadow-sm">
       <img
-        src={product.path}
+        src={product.path || `https://source.unsplash.com/400x400/?${product.name}`}
         alt={product.name}
         className="aspect-square object-cover"
       />
