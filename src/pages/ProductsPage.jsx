@@ -15,7 +15,7 @@ export default function ProductsPage() {
       carte.products.filter((product) => product.category === category)
     );
     console.log(products);
-  }, [category]);
+  }, [category, products]);
   return (
     <div className="p-4 flex flex-col gap-4">
       <header className="p-4 relative w-full flex items-center justify-center">
